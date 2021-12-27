@@ -1,33 +1,32 @@
 <!DOCTYPE html>
 <html lang="pl">
-  <head>
+
+<head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Business Card</title>
     <link rel="stylesheet" href="normalize.css" type="text/css" />
     <link rel="stylesheet" href="style.css" type="text/css" />
-  </head>
+</head>
 
-  <body>
+<body>
     <main class="main">
-      <article>
-        <img src="../IMG/avatar.png" alt="Zdjecie osoby"/>
-        <header>
-          <h1>Imię i nazwisko</h1>
-          <p>stanowisko</p>
-        </header>
-        <p>
-          Programista z kilkunastoletnim doświadczeniem, fotograf, operator
-          drona, właściciel Sokoła Millennium (na razie tylko z Lego), prelegent
-          i szkoleniowiec. Uwielbia eksperymentować z nowymi technologiami, w
-          swojej twórczości ocierając się o sztukę. W sieci: Facebook, GitHub,
-          Instagram.
-        </p>
-        <p>
-            W sieci: Facebook, GitHub, Instagram. 
-        </p>
-      </article>
+        <article class="person">
+            <img class="person__picture" src="../IMG/avatar.png" alt="Zdjecie osoby" />
+            <header class="person__info">
+                <h1 class="person__name">Imię i nazwisko</h1>
+                <p class="person__position">stanowisko</p>
+            </header>
+            <p class="person__description">
+                Programista z <strong class="special"> kilkunastoletnim doświadczeniem </strong>, fotograf, operator drona, właściciel Sokoła Millennium (na razie tylko z Lego), <strong class="special">prelegent i szkoleniowiec </strong>. Uwielbia eksperymentować z nowymi technologiami, w
+                swojej twórczości ocierając się o sztukę.
+            </p>
+            <p class="person__description">
+                W sieci: <a class="person__link" href="#">Facebook</a>, <a class="person__link" href="#">GitHub</a>, <a class="person__link" href="#">Instagram</a>.
+            </p>
+        </article>
     </main>
-  </body>
+</body>
+
 </html>
