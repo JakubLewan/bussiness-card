@@ -23,7 +23,8 @@ body {
 }
 
 .person {
-
+    display: flex;
+    align-items: flex-start; /*non-stretch (start from top-right)*/
 }
 
 .person__descripton {
@@ -44,6 +45,10 @@ body {
 font-size: 36px;
 margin: 0;
 font-weight: normal;
+}
+
+.person__picture {
+margin-right: 32px;
 }
 
 .person__position {
