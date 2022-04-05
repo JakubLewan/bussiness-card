@@ -6,7 +6,7 @@ html {
 }
 
 body {
-    background-color: #2C2141;
+    background-color: #00436d;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -49,6 +49,9 @@ font-weight: normal;
 
 .person__picture {
 margin-right: 32px;
+border-radius: 50%;
+width: 80%;
+height: 80%;
 }
 
 .person__position {
@@ -58,11 +61,11 @@ margin-right: 32px;
     font-style: italic;
 }
 .special {
-    color: #ED6D06;
+    color: #373eb8;
     font-weight: normal;
 }
 
 .person__link {
-    color:  #E20613;
+    color:  #b7101b;
     text-decoration: none;
 }
