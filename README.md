@@ -3,5 +3,5 @@ A simple page reflecting a business card. Created to practice transferring the d
 ## Features
 
 - HTML
-- CSS 
+- CSS (BEM)
 - Figma
